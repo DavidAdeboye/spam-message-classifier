@@ -1,0 +1,3 @@
+message,predicted_label,actual_label
+"Hey I saw your pic on Instagram, can I paint a mural of you and send to my client, I'd pay you for using your pic tho","not_spam","spam"
+"Hey I saw your pic on Instagram, can I paint a mural of you and send to my client, I'd pay you for using your pic tho",not_spam,spam

@@ -1,0 +1,448 @@
+2025-06-07 19:40:14,757 - INFO - Starting model training...
+2025-06-07 19:40:14,759 - INFO - Merging datasets...
+2025-06-07 19:40:14,761 - INFO - Loading base dataset...
+2025-06-07 19:40:18,394 - INFO - Loaded manual dataset
+2025-06-07 19:40:18,399 - WARNING - Kaggle dataset not found: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-07 19:40:18,414 - INFO - Loaded user feedback dataset
+2025-06-07 19:40:19,465 - INFO - Total samples after merging: 5092
+2025-06-07 19:44:40,572 - INFO - Starting model training...
+2025-06-07 19:44:40,573 - INFO - Merging datasets...
+2025-06-07 19:44:40,578 - INFO - Loading base dataset...
+2025-06-08 00:58:22,052 - INFO - Starting model training pipeline...
+2025-06-08 00:58:23,797 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 00:58:27,346 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 00:58:27,408 - ERROR - Error loading user feedback: No columns to parse from file
+2025-06-08 00:58:27,494 - INFO - Merged dataset created with 5091 total records
+2025-06-08 00:58:27,908 - INFO - 
+Classification Report:
+2025-06-08 00:58:27,949 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       909
+           1       0.93      0.87      0.90       110
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.93      0.94      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 00:58:27,949 - INFO - 
+Confusion Matrix:
+2025-06-08 00:58:27,958 - INFO - 
+[[902   7]
+ [ 14  96]]
+2025-06-08 00:58:27,962 - INFO - 
+Accuracy Score: 0.979
+2025-06-08 00:58:28,018 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 00:58:28,019 - INFO - Model training pipeline completed
+2025-06-08 01:01:41,141 - INFO - Starting model training pipeline...
+2025-06-08 01:01:42,461 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:01:46,381 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:01:46,462 - INFO - User feedback loaded successfully with 0 records
+2025-06-08 01:01:46,616 - INFO - Merged dataset created with 5091 total records
+2025-06-08 01:01:47,130 - INFO - 
+Classification Report:
+2025-06-08 01:01:47,169 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       909
+           1       0.93      0.87      0.90       110
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.93      0.94      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:01:47,169 - INFO - 
+Confusion Matrix:
+2025-06-08 01:01:47,175 - INFO - 
+[[902   7]
+ [ 14  96]]
+2025-06-08 01:01:47,181 - INFO - 
+Accuracy Score: 0.979
+2025-06-08 01:01:47,247 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:01:47,248 - INFO - Model training pipeline completed
+2025-06-08 01:04:38,080 - INFO - Starting model training pipeline...
+2025-06-08 01:04:39,761 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:04:45,287 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:04:45,358 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:04:45,450 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:04:45,728 - INFO - Merged dataset created with 5094 total records
+2025-06-08 01:04:45,994 - INFO - 
+Classification Report:
+2025-06-08 01:04:46,013 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       911
+           1       0.93      0.90      0.92       108
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.95      0.95      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:04:46,013 - INFO - 
+Confusion Matrix:
+2025-06-08 01:04:46,016 - INFO - 
+[[904   7]
+ [ 11  97]]
+2025-06-08 01:04:46,017 - INFO - 
+Accuracy Score: 0.982
+2025-06-08 01:04:46,045 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:04:46,045 - INFO - Model training pipeline completed
+2025-06-08 01:07:34,616 - INFO - Starting model training pipeline...
+2025-06-08 01:07:35,931 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:07:41,013 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:07:41,055 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:07:41,065 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:07:42,005 - INFO - Merged dataset created with 5094 total records
+2025-06-08 01:07:42,398 - INFO - 
+Classification Report:
+2025-06-08 01:07:42,431 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       911
+           1       0.93      0.90      0.92       108
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.95      0.95      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:07:42,432 - INFO - 
+Confusion Matrix:
+2025-06-08 01:07:42,438 - INFO - 
+[[904   7]
+ [ 11  97]]
+2025-06-08 01:07:42,441 - INFO - 
+Accuracy Score: 0.982
+2025-06-08 01:07:42,502 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:07:42,503 - INFO - Model training pipeline completed
+2025-06-08 01:11:48,623 - INFO - Starting model training pipeline...
+2025-06-08 01:11:49,980 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:11:54,003 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:11:54,036 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:11:54,043 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:11:54,583 - INFO - Merged dataset created with 5094 total records
+2025-06-08 01:11:54,842 - INFO - 
+Classification Report:
+2025-06-08 01:11:54,859 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       911
+           1       0.93      0.90      0.92       108
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.95      0.95      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:11:54,860 - INFO - 
+Confusion Matrix:
+2025-06-08 01:11:54,862 - INFO - 
+[[904   7]
+ [ 11  97]]
+2025-06-08 01:11:54,864 - INFO - 
+Accuracy Score: 0.982
+2025-06-08 01:11:54,896 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:11:54,897 - INFO - Model training pipeline completed
+2025-06-08 01:19:56,846 - INFO - Starting model training pipeline...
+2025-06-08 01:19:58,498 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:20:03,869 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:20:03,915 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:20:03,920 - ERROR - Error loading sophisticated spam dataset: No columns to parse from file
+2025-06-08 01:20:03,939 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:20:05,677 - INFO - Merged dataset created with 5104 total records
+2025-06-08 01:20:05,863 - INFO - 
+Classification Report:
+2025-06-08 01:20:05,878 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       894
+           1       0.94      0.86      0.90       127
+
+    accuracy                           0.98      1021
+   macro avg       0.96      0.93      0.94      1021
+weighted avg       0.98      0.98      0.98      1021
+
+2025-06-08 01:20:05,879 - INFO - 
+Confusion Matrix:
+2025-06-08 01:20:05,881 - INFO - 
+[[887   7]
+ [ 18 109]]
+2025-06-08 01:20:05,882 - INFO - 
+Accuracy Score: 0.976
+2025-06-08 01:20:05,909 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:20:05,909 - INFO - Model training pipeline completed
+2025-06-08 01:31:46,188 - INFO - Starting model training pipeline...
+2025-06-08 01:31:47,674 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:31:47,697 - INFO - Sophisticated spam dataset loaded successfully with 20 records
+2025-06-08 01:31:47,703 - ERROR - Error loading legitimate examples: No columns to parse from file
+2025-06-08 01:31:47,722 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:31:48,414 - INFO - Merged dataset created with 1234 total records
+2025-06-08 01:31:48,417 - INFO - Spam examples: 617
+2025-06-08 01:31:48,419 - INFO - Not spam examples: 617
+2025-06-08 01:31:48,559 - INFO - 
+Classification Report:
+2025-06-08 01:31:48,601 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.93      0.90      0.91       113
+           1       0.92      0.94      0.93       134
+
+    accuracy                           0.92       247
+   macro avg       0.92      0.92      0.92       247
+weighted avg       0.92      0.92      0.92       247
+
+2025-06-08 01:31:48,601 - INFO - 
+Confusion Matrix:
+2025-06-08 01:31:48,607 - INFO - 
+[[102  11]
+ [  8 126]]
+2025-06-08 01:31:48,611 - INFO - 
+Accuracy Score: 0.923
+2025-06-08 01:31:48,645 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:31:48,646 - INFO - Model training pipeline completed
+2025-06-08 01:33:24,937 - INFO - Starting model training pipeline...
+2025-06-08 01:33:26,284 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:33:31,557 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:33:31,587 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:33:31,597 - INFO - User feedback loaded successfully with 1 records
+2025-06-08 01:33:32,086 - INFO - Merged dataset created with 5094 total records
+2025-06-08 01:33:32,296 - INFO - 
+Classification Report:
+2025-06-08 01:33:32,312 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99       911
+           1       0.93      0.90      0.92       108
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.95      0.95      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:33:32,313 - INFO - 
+Confusion Matrix:
+2025-06-08 01:33:32,319 - INFO - 
+[[904   7]
+ [ 11  97]]
+2025-06-08 01:33:32,324 - INFO - 
+Accuracy Score: 0.982
+2025-06-08 01:33:32,369 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:33:32,370 - INFO - Model training pipeline completed
+2025-06-08 01:37:33,498 - INFO - Starting model training pipeline...
+2025-06-08 01:37:35,135 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:37:38,597 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:37:38,622 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:37:38,659 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:37:38,950 - INFO - Merged dataset created with 5092 total records
+2025-06-08 01:37:39,389 - INFO - 
+Classification Report:
+2025-06-08 01:37:39,401 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       905
+           1       0.93      0.88      0.90       114
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.93      0.94      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:37:39,402 - INFO - 
+Confusion Matrix:
+2025-06-08 01:37:39,406 - INFO - 
+[[897   8]
+ [ 14 100]]
+2025-06-08 01:37:39,407 - INFO - 
+Accuracy Score: 0.978
+2025-06-08 01:37:39,434 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:37:39,434 - INFO - Model training pipeline completed
+2025-06-08 01:39:56,198 - INFO - Starting model training pipeline...
+2025-06-08 01:39:57,901 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:40:02,468 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:40:02,522 - ERROR - Error loading local spam dataset: 'utf-8' codec can't decode bytes in position 606-607: invalid continuation byte
+2025-06-08 01:40:02,538 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:40:02,970 - INFO - Merged dataset created with 5092 total records
+2025-06-08 01:40:03,746 - INFO - 
+Classification Report:
+2025-06-08 01:40:03,771 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       905
+           1       0.93      0.88      0.90       114
+
+    accuracy                           0.98      1019
+   macro avg       0.96      0.93      0.94      1019
+weighted avg       0.98      0.98      0.98      1019
+
+2025-06-08 01:40:03,771 - INFO - 
+Confusion Matrix:
+2025-06-08 01:40:03,773 - INFO - 
+[[897   8]
+ [ 14 100]]
+2025-06-08 01:40:03,775 - INFO - 
+Accuracy Score: 0.978
+2025-06-08 01:40:03,795 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:40:03,795 - INFO - Model training pipeline completed
+2025-06-08 01:42:09,195 - INFO - Starting model training pipeline...
+2025-06-08 01:42:10,792 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:42:15,163 - ERROR - Error loading Kaggle dataset: "['label'] not in index"
+2025-06-08 01:42:15,225 - INFO - Sophisticated spam examples loaded successfully with 15 records
+2025-06-08 01:42:15,274 - INFO - Legitimate examples loaded successfully with 15 records
+2025-06-08 01:42:15,288 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:42:15,690 - INFO - Merged dataset created with 5121 total records
+2025-06-08 01:42:16,839 - INFO - 
+Classification Report:
+2025-06-08 01:42:16,854 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       893
+           1       0.96      0.84      0.90       132
+
+    accuracy                           0.97      1025
+   macro avg       0.97      0.92      0.94      1025
+weighted avg       0.97      0.97      0.97      1025
+
+2025-06-08 01:42:16,855 - INFO - 
+Confusion Matrix:
+2025-06-08 01:42:16,857 - INFO - 
+[[888   5]
+ [ 21 111]]
+2025-06-08 01:42:16,858 - INFO - 
+Accuracy Score: 0.975
+2025-06-08 01:42:16,880 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:42:16,880 - INFO - Model training pipeline completed
+2025-06-08 01:47:26,858 - INFO - Starting model training pipeline...
+2025-06-08 01:47:26,867 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 01:47:26,873 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:47:28,292 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:47:28,932 - INFO - Merged dataset created with 5099 total records
+2025-06-08 01:47:30,296 - INFO - 
+Classification Report:
+2025-06-08 01:47:30,348 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       892
+           1       0.96      0.84      0.89       128
+
+    accuracy                           0.97      1020
+   macro avg       0.97      0.92      0.94      1020
+weighted avg       0.97      0.97      0.97      1020
+
+2025-06-08 01:47:30,349 - INFO - 
+Confusion Matrix:
+2025-06-08 01:47:30,356 - INFO - 
+[[887   5]
+ [ 21 107]]
+2025-06-08 01:47:30,361 - INFO - 
+Accuracy Score: 0.975
+2025-06-08 01:47:30,438 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:47:30,439 - INFO - Model training pipeline completed
+2025-06-08 01:51:44,229 - INFO - Starting model training pipeline...
+2025-06-08 01:51:44,256 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 01:51:44,279 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:51:46,809 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:51:47,320 - INFO - Merged dataset created with 5099 total records
+2025-06-08 01:51:48,357 - INFO - 
+Classification Report:
+2025-06-08 01:51:48,403 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99       892
+           1       0.96      0.84      0.89       128
+
+    accuracy                           0.97      1020
+   macro avg       0.97      0.92      0.94      1020
+weighted avg       0.97      0.97      0.97      1020
+
+2025-06-08 01:51:48,404 - INFO - 
+Confusion Matrix:
+2025-06-08 01:51:48,413 - INFO - 
+[[887   5]
+ [ 21 107]]
+2025-06-08 01:51:48,417 - INFO - 
+Accuracy Score: 0.975
+2025-06-08 01:51:48,493 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:51:48,494 - INFO - Model training pipeline completed
+2025-06-08 01:59:03,078 - INFO - Starting model training pipeline...
+2025-06-08 01:59:03,083 - ERROR - Error loading common scams: No columns to parse from file
+2025-06-08 01:59:03,097 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 01:59:03,105 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 01:59:04,611 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 01:59:06,360 - INFO - Merged dataset created with 5099 total records
+2025-06-08 01:59:07,250 - INFO - 
+Classification Report:
+2025-06-08 01:59:07,313 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       892
+           1       0.96      0.84      0.90       128
+
+    accuracy                           0.98      1020
+   macro avg       0.97      0.92      0.94      1020
+weighted avg       0.98      0.98      0.97      1020
+
+2025-06-08 01:59:07,313 - INFO - 
+Confusion Matrix:
+2025-06-08 01:59:07,334 - INFO - 
+[[888   4]
+ [ 21 107]]
+2025-06-08 01:59:07,341 - INFO - 
+Accuracy Score: 0.975
+2025-06-08 01:59:07,398 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 01:59:07,398 - INFO - Model training pipeline completed
+2025-06-08 02:03:16,854 - INFO - Starting model training pipeline...
+2025-06-08 02:03:16,925 - INFO - Common scams loaded successfully with 45 records
+2025-06-08 02:03:16,940 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 02:03:16,953 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 02:03:18,542 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 02:03:20,288 - INFO - Merged dataset created with 5181 total records
+2025-06-08 02:05:58,460 - INFO - Starting model training pipeline...
+2025-06-08 02:05:58,538 - INFO - Common scams loaded successfully with 45 records
+2025-06-08 02:05:58,548 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 02:05:58,561 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 02:06:00,164 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 02:06:00,747 - INFO - Merged dataset created with 5181 total records
+2025-06-08 02:06:01,415 - INFO - 
+Classification Report:
+2025-06-08 02:06:01,432 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       907
+           1       0.97      0.89      0.93       130
+
+    accuracy                           0.98      1037
+   macro avg       0.98      0.94      0.96      1037
+weighted avg       0.98      0.98      0.98      1037
+
+2025-06-08 02:06:01,432 - INFO - 
+Confusion Matrix:
+2025-06-08 02:06:01,435 - INFO - 
+[[903   4]
+ [ 14 116]]
+2025-06-08 02:06:01,438 - INFO - 
+Accuracy Score: 0.983
+2025-06-08 02:06:01,494 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 02:06:01,494 - INFO - Model training pipeline completed
+2025-06-08 21:17:26,250 - INFO - Starting model training pipeline...
+2025-06-08 21:17:26,269 - INFO - Common scams loaded successfully with 45 records
+2025-06-08 21:17:26,282 - INFO - Sophisticated spam examples loaded successfully with 45 records
+2025-06-08 21:17:26,294 - INFO - User feedback loaded successfully with 2 records
+2025-06-08 21:17:27,803 - INFO - Base dataset loaded successfully with 5571 records
+2025-06-08 21:17:28,311 - INFO - Merged dataset created with 5181 total records
+2025-06-08 21:17:28,859 - INFO - 
+Classification Report:
+2025-06-08 21:17:28,876 - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       907
+           1       0.97      0.89      0.93       130
+
+    accuracy                           0.98      1037
+   macro avg       0.98      0.94      0.96      1037
+weighted avg       0.98      0.98      0.98      1037
+
+2025-06-08 21:17:28,876 - INFO - 
+Confusion Matrix:
+2025-06-08 21:17:28,880 - INFO - 
+[[903   4]
+ [ 14 116]]
+2025-06-08 21:17:28,883 - INFO - 
+Accuracy Score: 0.983
+2025-06-08 21:17:28,954 - INFO - Model saved successfully as spam_model.pkl
+2025-06-08 21:17:28,955 - INFO - Model training pipeline completed

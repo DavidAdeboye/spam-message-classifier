@@ -24,4 +24,7 @@ if st.button("Classify"):
         prediction = model.predict([user_input])
         label = "Spam" if prediction[0] == 1 else "Not Spam"
         st.subheader("Prediction")
-        st.success(f"The message is classified as: **{label}**")
+        if prediction[0] == 1:
+            st.error(f"⚠️ This message is classified as: **{label}**")  # Red for spam
+        else:
+            st.success(f"✅ This message is classified as: **{label}**")  # Green for non-spam
